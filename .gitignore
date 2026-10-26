@@ -1,0 +1,5 @@
+includes/secrets.php
+includes/config.php
+*.log
+database.sql
+uploads/products/*

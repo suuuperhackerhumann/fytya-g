@@ -1,0 +1,10 @@
+<Files "config.php">
+    Require all denied
+</Files>
+<Files "secrets.php">
+    Require all denied
+</Files>
+# Les journaux de debug ne doivent jamais être servis publiquement.
+<FilesMatch "\.(log|sql)$">
+    Require all denied
+</FilesMatch>
